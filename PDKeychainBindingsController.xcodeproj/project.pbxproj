@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B462417B15E290EB00D50228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39ABDB413CA80B50078DA13 /* Foundation.framework */; };
+		B462418A15E2911500D50228 /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = B462418715E2911500D50228 /* PDKeychainBindings.m */; };
+		B462418B15E2911500D50228 /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B462418915E2911500D50228 /* PDKeychainBindingsController.m */; };
+		B462418D15E2912B00D50228 /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B462418915E2911500D50228 /* PDKeychainBindingsController.m */; };
+		B462418E15E2913000D50228 /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = B462418715E2911500D50228 /* PDKeychainBindings.m */; };
+		B462419215E2917900D50228 /* libPDKeychainBindingsController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B462417A15E290EB00D50228 /* libPDKeychainBindingsController.a */; };
 		D39ABDF213CA80D90078DA13 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39ABDF113CA80D90078DA13 /* Cocoa.framework */; };
 		D39ABDFC13CA80D90078DA13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D39ABDFA13CA80D90078DA13 /* InfoPlist.strings */; };
 		D39ABDFF13CA80D90078DA13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D39ABDFE13CA80D90078DA13 /* main.m */; };
@@ -28,10 +34,6 @@
 		D39ABE4813CA81090078DA13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39ABDB413CA80B50078DA13 /* Foundation.framework */; };
 		D39ABE4913CA81090078DA13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39ABDB613CA80B50078DA13 /* CoreGraphics.framework */; };
 		D39ABE5113CA81090078DA13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D39ABE4F13CA81090078DA13 /* InfoPlist.strings */; };
-		D39ABE6013CA81550078DA13 /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39ABE5F13CA81550078DA13 /* PDKeychainBindingsController.m */; };
-		D39ABE6213CA81550078DA13 /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39ABE5F13CA81550078DA13 /* PDKeychainBindingsController.m */; };
-		D39ABE6E13CA85E40078DA13 /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = D39ABE6D13CA85E40078DA13 /* PDKeychainBindings.m */; };
-		D39ABE7013CA85E40078DA13 /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = D39ABE6D13CA85E40078DA13 /* PDKeychainBindings.m */; };
 		D39ABE7F13CA87A60078DA13 /* PDKeychainBindingsControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39ABE7E13CA87A60078DA13 /* PDKeychainBindingsControllerTest.m */; };
 		D39ABE8513CA8C620078DA13 /* PDKeychainBindingsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39ABE8413CA8C620078DA13 /* PDKeychainBindingsTest.m */; };
 		D3DEB64713CFA0180059B963 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DEB64613CFA0180059B963 /* Security.framework */; };
@@ -43,6 +45,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B462419015E2916F00D50228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39ABDA513CA80B50078DA13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B462417915E290EB00D50228;
+			remoteInfo = PDKeychainBindingsController;
+		};
 		D39ABE1013CA80D90078DA13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D39ABDA513CA80B50078DA13 /* Project object */;
@@ -59,7 +68,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B462417815E290EB00D50228 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B462417A15E290EB00D50228 /* libPDKeychainBindingsController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPDKeychainBindingsController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B462417E15E290EB00D50228 /* PDKeychainBindingsController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PDKeychainBindingsController-Prefix.pch"; sourceTree = "<group>"; };
+		B462418615E2911500D50228 /* PDKeychainBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindings.h; sourceTree = "<group>"; };
+		B462418715E2911500D50228 /* PDKeychainBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindings.m; sourceTree = "<group>"; };
+		B462418815E2911500D50228 /* PDKeychainBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsController.h; sourceTree = "<group>"; };
+		B462418915E2911500D50228 /* PDKeychainBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindingsController.m; sourceTree = "<group>"; };
 		D39ABDB213CA80B50078DA13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D39ABDB413CA80B50078DA13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D39ABDB613CA80B50078DA13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,10 +122,6 @@
 		D39ABE4E13CA81090078DA13 /* PDKeychainBindingsControlleriOSExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PDKeychainBindingsControlleriOSExampleTests-Info.plist"; sourceTree = "<group>"; };
 		D39ABE5013CA81090078DA13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D39ABE5213CA81090078DA13 /* PDKeychainBindingsControlleriOSExampleTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PDKeychainBindingsControlleriOSExampleTests-Prefix.pch"; sourceTree = "<group>"; };
-		D39ABE5E13CA81550078DA13 /* PDKeychainBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKeychainBindingsController.h; path = PDKeychainBindingsController/PDKeychainBindingsController.h; sourceTree = "<group>"; };
-		D39ABE5F13CA81550078DA13 /* PDKeychainBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKeychainBindingsController.m; path = PDKeychainBindingsController/PDKeychainBindingsController.m; sourceTree = "<group>"; };
-		D39ABE6C13CA85E40078DA13 /* PDKeychainBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKeychainBindings.h; path = PDKeychainBindingsController/PDKeychainBindings.h; sourceTree = "<group>"; };
-		D39ABE6D13CA85E40078DA13 /* PDKeychainBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKeychainBindings.m; path = PDKeychainBindingsController/PDKeychainBindings.m; sourceTree = "<group>"; };
 		D39ABE7D13CA87A60078DA13 /* PDKeychainBindingsControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsControllerTest.h; sourceTree = "<group>"; };
 		D39ABE7E13CA87A60078DA13 /* PDKeychainBindingsControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindingsControllerTest.m; sourceTree = "<group>"; };
 		D39ABE8313CA8C620078DA13 /* PDKeychainBindingsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsTest.h; sourceTree = "<group>"; };
@@ -114,6 +137,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B462417715E290EB00D50228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B462417B15E290EB00D50228 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D39ABDEC13CA80D90078DA13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -136,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B462419215E2917900D50228 /* libPDKeychainBindingsController.a in Frameworks */,
 				D3DEB64E13CFA03E0059B963 /* Security.framework in Frameworks */,
 				D39ABE2913CA81090078DA13 /* UIKit.framework in Frameworks */,
 				D39ABE2A13CA81090078DA13 /* Foundation.framework in Frameworks */,
@@ -157,6 +189,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B462417C15E290EB00D50228 /* PDKeychainBindingsController */ = {
+			isa = PBXGroup;
+			children = (
+				B462418615E2911500D50228 /* PDKeychainBindings.h */,
+				B462418715E2911500D50228 /* PDKeychainBindings.m */,
+				B462418815E2911500D50228 /* PDKeychainBindingsController.h */,
+				B462418915E2911500D50228 /* PDKeychainBindingsController.m */,
+				B462417D15E290EB00D50228 /* Supporting Files */,
+			);
+			path = PDKeychainBindingsController;
+			sourceTree = "<group>";
+		};
+		B462417D15E290EB00D50228 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B462417E15E290EB00D50228 /* PDKeychainBindingsController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D39ABDA313CA80B50078DA13 = {
 			isa = PBXGroup;
 			children = (
@@ -164,11 +216,11 @@
 				D3DEB64B13CFA0360059B963 /* Security.framework */,
 				D3DEB64913CFA02D0059B963 /* Security.framework */,
 				D3DEB64613CFA0180059B963 /* Security.framework */,
-				D39ABE5D13CA81390078DA13 /* PDKeychainBindingsController */,
 				D39ABDF713CA80D90078DA13 /* PDKeychainBindingsControllerOSXExample */,
 				D39ABE1213CA80D90078DA13 /* PDKeychainBindingsControllerOSXExampleTests */,
 				D39ABE2C13CA81090078DA13 /* PDKeychainBindingsControlleriOSExample */,
 				D39ABE4C13CA81090078DA13 /* PDKeychainBindingsControlleriOSExampleTests */,
+				B462417C15E290EB00D50228 /* PDKeychainBindingsController */,
 				D39ABDB113CA80B50078DA13 /* Frameworks */,
 				D39ABDAF13CA80B50078DA13 /* Products */,
 			);
@@ -181,6 +233,7 @@
 				D39ABE0E13CA80D90078DA13 /* PDKeychainBindingsControllerOSXExampleTests.octest */,
 				D39ABE2713CA81090078DA13 /* PDKeychainBindingsControlleriOSExample.app */,
 				D39ABE4613CA81090078DA13 /* PDKeychainBindingsControlleriOSExampleTests.octest */,
+				B462417A15E290EB00D50228 /* libPDKeychainBindingsController.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -299,20 +352,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D39ABE5D13CA81390078DA13 /* PDKeychainBindingsController */ = {
-			isa = PBXGroup;
-			children = (
-				D39ABE6C13CA85E40078DA13 /* PDKeychainBindings.h */,
-				D39ABE6D13CA85E40078DA13 /* PDKeychainBindings.m */,
-				D39ABE5E13CA81550078DA13 /* PDKeychainBindingsController.h */,
-				D39ABE5F13CA81550078DA13 /* PDKeychainBindingsController.m */,
-			);
-			name = PDKeychainBindingsController;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B462417915E290EB00D50228 /* PDKeychainBindingsController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B462418315E290EB00D50228 /* Build configuration list for PBXNativeTarget "PDKeychainBindingsController" */;
+			buildPhases = (
+				B462417615E290EB00D50228 /* Sources */,
+				B462417715E290EB00D50228 /* Frameworks */,
+				B462417815E290EB00D50228 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDKeychainBindingsController;
+			productName = PDKeychainBindingsController;
+			productReference = B462417A15E290EB00D50228 /* libPDKeychainBindingsController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		D39ABDEE13CA80D90078DA13 /* PDKeychainBindingsControllerOSXExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D39ABE1D13CA80D90078DA13 /* Build configuration list for PBXNativeTarget "PDKeychainBindingsControllerOSXExample" */;
@@ -360,6 +419,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B462419115E2916F00D50228 /* PBXTargetDependency */,
 			);
 			name = PDKeychainBindingsControlleriOSExample;
 			productName = PDKeychainBindingsControlleriOSExample;
@@ -410,6 +470,7 @@
 				D39ABE0D13CA80D90078DA13 /* PDKeychainBindingsControllerOSXExampleTests */,
 				D39ABE2613CA81090078DA13 /* PDKeychainBindingsControlleriOSExample */,
 				D39ABE4513CA81090078DA13 /* PDKeychainBindingsControlleriOSExampleTests */,
+				B462417915E290EB00D50228 /* PDKeychainBindingsController */,
 			);
 		};
 /* End PBXProject section */
@@ -483,14 +544,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B462417615E290EB00D50228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B462418A15E2911500D50228 /* PDKeychainBindings.m in Sources */,
+				B462418B15E2911500D50228 /* PDKeychainBindingsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D39ABDEB13CA80D90078DA13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D39ABDFF13CA80D90078DA13 /* main.m in Sources */,
 				D39ABE0513CA80D90078DA13 /* PDKeychainBindingsControllerOSXExampleAppDelegate.m in Sources */,
-				D39ABE6013CA81550078DA13 /* PDKeychainBindingsController.m in Sources */,
-				D39ABE6E13CA85E40078DA13 /* PDKeychainBindings.m in Sources */,
+				B462418D15E2912B00D50228 /* PDKeychainBindingsController.m in Sources */,
+				B462418E15E2913000D50228 /* PDKeychainBindings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,8 +581,6 @@
 				D39ABE3413CA81090078DA13 /* main.m in Sources */,
 				D39ABE3713CA81090078DA13 /* PDKeychainBindingsControlleriOSExampleAppDelegate.m in Sources */,
 				D39ABE3D13CA81090078DA13 /* PDKeychainBindingsControlleriOSExampleViewController.m in Sources */,
-				D39ABE6213CA81550078DA13 /* PDKeychainBindingsController.m in Sources */,
-				D39ABE7013CA85E40078DA13 /* PDKeychainBindings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +595,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B462419115E2916F00D50228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B462417915E290EB00D50228 /* PDKeychainBindingsController */;
+			targetProxy = B462419015E2916F00D50228 /* PBXContainerItemProxy */;
+		};
 		D39ABE1113CA80D90078DA13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D39ABDEE13CA80D90078DA13 /* PDKeychainBindingsControllerOSXExample */;
@@ -607,6 +680,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B462418415E290EB00D50228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/PDKeychainBindingsController.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDKeychainBindingsController/PDKeychainBindingsController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B462418515E290EB00D50228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/PDKeychainBindingsController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDKeychainBindingsController/PDKeychainBindingsController-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		D39ABDE313CA80B50078DA13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -812,6 +929,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B462418315E290EB00D50228 /* Build configuration list for PBXNativeTarget "PDKeychainBindingsController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B462418415E290EB00D50228 /* Debug */,
+				B462418515E290EB00D50228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D39ABDA813CA80B50078DA13 /* Build configuration list for PBXProject "PDKeychainBindingsController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
